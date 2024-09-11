@@ -12,7 +12,7 @@ Mã trong dự án này sẽ:
 - Xử lý và hiển thị hình ảnh trái tim động.
 - Mã huấn luyện được lưu trữ trong tệp `temp.txt`.
 - Hiển thị các hình ảnh đã được lưu trữ, minh họa hình ảnh:
-![Ảnh nhận dạng số 1]([https://github.com/nhut-share-code/ve_hoa_tao_anh_dong/blob/master/output/0.jpg])
+- ![Hình Ảnh Mẫu](https://github.com/nhut-share-code/ve_hoa_tao_anh_dong/blob/master/output/0.jpg)
 ## Yêu cầu
 
 Để chạy mã này, bạn cần:
