@@ -1,28 +1,30 @@
-# Mã Python Tạo Ảnh Động từ Hình Ảnh Đã Được Huấn Luyện
+# Tạo Ảnh Động Hình Trái Tim từ Mã Python
 
-Dự án này minh họa cách tạo ảnh GIF động từ 30 hình ảnh đã được huấn luyện sử dụng mã Python. Mã huấn luyện được lưu trữ trong file `temp.txt`. Dưới đây là một ví dụ về hình ảnh đầu ra, bạn có thể truy cập vào bộ hình ảnh đầy đủ trong kho lưu trữ.
+Dự án này sử dụng mã Python để tạo ra một ảnh GIF động từ 30 hình ảnh được huấn luyện từ mã trong tệp `temp.txt`. Dự án này bao gồm thuật toán tạo ra hình trái tim và chuyển động mượt mà của các điểm theo thời gian, được hiển thị qua ảnh động.
 
 ## Tổng quan
 
-Mã trong kho này sẽ:
-1. Huấn luyện hệ thống dựa trên 30 hình ảnh sử dụng mã được lưu trữ trong file `temp.txt`.
-2. Tạo ảnh GIF động làm kết quả đầu ra.
+Mã trong dự án này sẽ:
+1. Huấn luyện hệ thống dựa trên 30 hình ảnh sử dụng mã được lưu trữ trong tệp `temp.txt`.
+2. Tạo ra ảnh GIF động từ các hình ảnh đã được huấn luyện.
 
 ### Tính năng:
-- Xử lý hình ảnh và tạo ảnh động sử dụng Python.
-- Mô hình huấn luyện dựa trên các hình ảnh được lưu trữ cục bộ.
-- Hình ảnh đầu ra mẫu để tham khảo.
+- Xử lý và hiển thị hình ảnh trái tim động.
+- Mã huấn luyện được lưu trữ trong tệp `temp.txt`.
+- Hiển thị các hình ảnh đã được lưu trữ, minh họa một hình ảnh tại [đây](https://github.com/nhut-share-code/ve_hoa_tao_anh_dong/blob/master/output/0.jpg).
 
 ## Yêu cầu
 
-Để chạy mã, bạn cần:
+Để chạy mã này, bạn cần:
 - Python 3.x
 - Các thư viện sau:
-  - `Pillow` (xử lý hình ảnh)
-  - `numpy` (xử lý số liệu)
-  - Các thư viện khác có thể được đề cập trong file `temp.txt`.
+  - `numpy`
+  - `matplotlib`
+  - `Pillow`
+  - `opencv-python`
+  - `scipy`
 
-Bạn có thể cài đặt các thư viện cần thiết bằng lệnh `pip`:
+Bạn có thể cài đặt các thư viện cần thiết bằng lệnh:
 
 ```bash
-pip install Pillow numpy
+pip install numpy matplotlib Pillow opencv-python scipy
